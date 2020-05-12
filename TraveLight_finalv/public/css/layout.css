@@ -1,0 +1,62 @@
+#all_ideas {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 50px; */
+    margin-bottom: 100px;
+}
+
+#idea-results tr:nth-child(even) {
+	background-color: #ebebeb;
+}
+
+#app .bg{
+    width: 100%;
+    height: 200px;
+    background: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+th, td {
+    padding: 8px;
+}
+
+.py-4 .container{
+    overflow: hidden;
+}
+
+.py-4 .container .travel-c{
+    width: 300px;
+    float: left;
+}
+
+.py-4 .container .dest-c{
+    float: right;
+}
+
+#map{
+    height: 300px;
+    width: 350px;
+}
+
+.site-footer {
+    /* margin-top: -160px; */
+    background-color: #0d3153;
+    padding: 20px 0 15px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #737373;
+}
+.site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5;
+}
+.site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
